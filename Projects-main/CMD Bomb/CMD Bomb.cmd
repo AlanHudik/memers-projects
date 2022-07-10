@@ -1,0 +1,3 @@
+:A
+start
+goto A
