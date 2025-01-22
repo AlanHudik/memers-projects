@@ -1,1 +1,1 @@
-this program doesn't work anymore.
+youtube-dl shall now download but menu.exe won't which keeps this project defective. if someone can find the menu.exe file please dm me @AlanHudik on discord. thank you.
