@@ -5,7 +5,7 @@ md Downloads
 title Audio And Video Downloader By Memer
 mode 120,10
 cd /d %AppData%
-IF NOT EXIST AAVDownloader echo Press Any Key To Download Required Files [9 MB]... (This Happens Only On First Launch)&pause>nul&cls&echo Downloading...&md AAVDownloader&cd /d %AppData%\AAVDownloader&echo[&echo[&curl -L https://youtube-dl.org/downloads/latest/youtube-dl.exe --output youtube-dl.exe --progress-bar&curl https://cdn.discordapp.com/attachments/803527462465830976/811198886991495168/Menu.exe --output Menu.exe --silent&cls
+IF NOT EXIST AAVDownloader echo Press Any Key To Download Required Files [9 MB]... (This Happens Only On First Launch)&pause>nul&cls&echo Downloading...&md AAVDownloader&cd /d %AppData%\AAVDownloader&echo[&echo[&curl -L https://yt-dl.org/downloads/2021.12.17/youtube-dl --output youtube-dl.exe --progress-bar&curl https://cdn.discordapp.com/attachments/803527462465830976/811198886991495168/Menu.exe --output Menu.exe --silent&cls
 :START
 cd /d %AppData%\AAVDownloader
 cls
@@ -15,7 +15,7 @@ echo[
 Menu 0AA0 "Audio (MP3)" "Video (MP4)" "Update"
 IF %ErrorLevel%==1 goto MP3
 IF %ErrorLevel%==2 goto MP4
-IF %ErrorLevel%==3 cls&erase youtube-dl.exe >nul&echo Updating...&echo[&echo[&echo[&curl -L https://youtube-dl.org/downloads/latest/youtube-dl.exe --output youtube-dl.exe --progress-bar&cls
+IF %ErrorLevel%==3 cls&erase youtube-dl.exe >nul&echo Updating...&echo[&echo[&echo[&curl -L https://yt-dl.org/downloads/2021.12.17/youtube-dl --output youtube-dl.exe --progress-bar&cls
 goto START
 :MP4
 cls
